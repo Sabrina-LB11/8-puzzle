@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/puzzle.css">
+    <title>My slide puzzle</title>
+</head>
+<body>
+    <div class="puzzle-container">
+        <input type="file" id="file-input" />
+        <h3>Contenido del archivo:</h3>
+        <pre id="contenido-archivo"></pre>
+        <div id="puzzle-container"></div>
+        <div class="controller-buttons">
+            <button class="controller-buttons solve-button" id="solve" type="button" onclick="solvePuzzle()">Solve</button>
+        </div>
+    </div>
+    
+
+    <script src="src/Puzzle.js"></script>
+</body>
+</html>
